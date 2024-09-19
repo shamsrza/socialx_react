@@ -15,7 +15,8 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="container navbar">
+    <nav className="navbar-wrapper">
+      <div className='container navbar'>
       <div className="logo">
         <SiAnaconda color="#fff" size={33} />
         <p className="logo-text">
@@ -48,6 +49,7 @@ const Navbar = () => {
         ) : (
           <AiOutlineBars color="#fff" size={27} />
         )}
+      </div>
       </div>
     </nav>
   );

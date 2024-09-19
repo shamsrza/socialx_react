@@ -1,8 +1,19 @@
-.navbar {
+.navbar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--dark-blue);
+}
+
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
+    width: 100%;
 }
 
 .logo{
